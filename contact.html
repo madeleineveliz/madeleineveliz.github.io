@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Maddy's Portfolio</title>
+        <meta name="description" content="Maddy's Portfolio Website">
+        <meta name="author" content="Madeleine Veliz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/e664791d1b.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+            <nav>
+                <a href="index.html"><img class= "logo" src="images/logo.png" alt= "Maddy's logo"/></a>
+                <div class= "openMenu"><i class= "fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="index.html#about-me">About me</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <div class ="closeMenu"><i class="fa fa-times"></i></div>
+                    <span class="icons">
+                        <a href="https://www.linkedin.com/in/madeleineveliz"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/madeleineveliz"><i class="fab fa-github"></i></a>
+                    </span>
+                </ul>
+            </nav>
+        <section class="contactme"> 
+            <header>
+                <h2>Get in touch!</h2>
+            </header>
+
+            <form action="https://formspree.io/f/mwkyvvjg" method="post">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-item">
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="email">
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div class="form-item">
+                    <button type="submit">Send!</button>
+                </div>
+            </form>
+        </section>
+
+
+        <footer>
+            © Madeleine Veliz 2022
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
