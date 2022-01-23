@@ -114,6 +114,12 @@ h2 {
     color: #ffc4f8;
 }
 
+@media  screen and (max-width: 600px){
+    h2 {
+        font-size: 50px;
+    }
+}
+
 p {
     margin: 0;
     font-size: 30px;
@@ -141,6 +147,12 @@ p {
     align-items: center;
     background-image: url(images/background.png);
     background-size: 1500px;
+}
+
+@media  screen and (max-width: 600px){
+    .hero-text h1 {
+        font-size: 50px;
+    }
 }
 
 .hero-text {
