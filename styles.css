@@ -56,7 +56,7 @@ nav .mainMenu .closeMenu, .icons i {
 .fa-linkedin:hover {color: #ffffff;}
 .fa-github:hover {color: #ffffff;}
 
-@media(max-width: 600px){
+@media(max-width: 1000px){
     nav .mainMenu {
         height: 300px;
         position: fixed;
